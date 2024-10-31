@@ -1,0 +1,60 @@
+/* Tí­tulo de la página */
+h1 {
+    font-size: 2rem;
+    color: #195f94;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la lista de publicaciones */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+/* Estilos para cada post */
+li {
+    background-color: #fff; /* Fondo blanco para cada post */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 15px; /* Espacio entre posts */
+    padding: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto hover para el post (selector padre/hijo) */
+li:hover {
+/* Eleva un poco el post al pasar el cursor*/
+    transform: translateY(-5px);
+}
+
+/* Tí­tulo de cada publicación (selector padre/hijo) */
+h2 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Contenido de la publicación (selector padre/hijo) */
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5; /* Mejora la legibilidad */
+}
+
+button {
+    background-color: #195f94;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #103c5e;
+}
