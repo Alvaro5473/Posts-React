@@ -1,1 +1,2 @@
-# Posts-React
+`npm install`
+`npm start`
