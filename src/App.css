@@ -1,7 +1,13 @@
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* Tí­tulo de la página */
 h1 {
     font-size: 2rem;
-    color: #195f94;
+    color: black;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -14,13 +20,14 @@ ul {
   
 /* Estilos para cada post */
 li {
-    background-color: #fff; /* Fondo blanco para cada post */
+    background-color: white; /* Fondo blanco para cada post */
     border: 1px solid #ddd; /* Borde gris claro */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-bottom: 15px; /* Espacio entre posts */
     padding: 15px;
     transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 500px;
 }
 
 /* Efecto hover para el post (selector padre/hijo) */
@@ -45,16 +52,18 @@ p {
 }
 
 button {
-    background-color: #195f94;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     padding: 5px;
     margin-right: 5px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #103c5e;
+    background-color: lightgray;
 }

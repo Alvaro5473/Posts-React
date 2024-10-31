@@ -15,8 +15,8 @@ function App() {
   }, []);
 
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-      <h1>Publicaciones</h1>
+    <div style={{ fontFamily: 'Arial, sans-serif' }}>
+      <h1>Posts</h1>
       {/* Verifica si hay publicaciones cargadas */}
       {posts.length > 0 ? (
         <ul>
