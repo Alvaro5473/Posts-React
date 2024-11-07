@@ -27,6 +27,7 @@ li {
     margin-bottom: 15px; /* Espacio entre posts */
     padding: 15px;
     transition: transform 0.2s, box-shadow 0.2s;
+    min-width: 300px;
     max-width: 500px;
 }
 
@@ -66,4 +67,22 @@ button {
 
 button:hover {
     background-color: lightgray;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
